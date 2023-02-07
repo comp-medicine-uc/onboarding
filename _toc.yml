@@ -3,7 +3,15 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: Programming and Scientific Computing
+    chapters:
+    - file: fenics/markdown-notebooks
+    - file: general/notebooks
+  - caption: Scientific Visualization, Writing and Presenting
+  - caption: Statistical Analysis
+  - caption: Lab Training
+  - caption: Finite Element Analysis
+  - caption: Productivity
+    chapters:
+    - file: markdown
