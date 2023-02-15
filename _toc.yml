@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: landing
+root: intro
 parts:
   - caption: Programming and Code Development
     chapters:
@@ -12,11 +12,11 @@ parts:
       - file: programming/scientific_computing
   - caption: Scientific Visualization, Writing and Presenting
     chapters:
+    - file: writing/writing
+    - file: presenting/presenting
     - file: vis/vis
     sections:
       - file: vis/publication_matplotlib
-    - file: writing/writing
-    - file: presenting/presenting
   - caption: Statistical and Data Analysis
     chapters:
     - file: biostats/biostats
