@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: CompMedUC Onboarding
-author: Pablo Zurita Soler
+title: Onboarding
+author: Computational Medicine Group, PUC
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
