@@ -2,16 +2,41 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: landing
 parts:
-  - caption: Programming and Scientific Computing
+  - caption: Programming and Code Development
     chapters:
-    - file: fenics/markdown-notebooks
-    - file: general/notebooks
+    - file: programming/programming
+    sections:
+      - file: programming/python
+      - file: programming/scientific_computing
   - caption: Scientific Visualization, Writing and Presenting
-  - caption: Statistical Analysis
+    chapters:
+    - file: vis/vis
+    sections:
+      - file: vis/publication_matplotlib
+    - file: writing/writing
+    - file: presenting/presenting
+  - caption: Statistical and Data Analysis
+    chapters:
+    - file: biostats/biostats
+    - file: experiments/experiments
+    - file: pandas/pandas
   - caption: Lab Training
+    chapters:
+    - file: iibm-lab/iibm_lab
+    - file: instruments/instruments
+    sections:
+      - file: instruments/electroforce
+      - file: instruments/vibrotome
+      - file: instruments/powerlab
+      - file: instruments/bioradio
   - caption: Finite Element Analysis
+    chapters:
+    - file: fea/fenics/fenics
+    - file: fea/courses/courses
+    - file: fea/elements/elements
   - caption: Productivity
     chapters:
-    - file: markdown
+    - file: productivity/text/text
+    - file: productivity/tools/tools
