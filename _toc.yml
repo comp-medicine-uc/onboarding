@@ -6,37 +6,37 @@ root: intro
 parts:
   - caption: Programming and Code Development
     chapters:
-    - file: programming/programming
+    - file: code/programming
     sections:
-      - file: programming/python
-      - file: programming/scientific_computing
+      - file: code/programming/python
+      - file: code/programming/scientific_computing
   - caption: Scientific Visualization, Writing and Presenting
     chapters:
-    - file: writing/writing
-    - file: presenting/presenting
-    - file: vis/vis
+    - file: expo/writing
+    - file: expo/presenting
+    - file: expo/vis
     sections:
-      - file: vis/publication_matplotlib
+      - file: expo/vis/publication_matplotlib
   - caption: Statistical and Data Analysis
     chapters:
-    - file: biostats/biostats
-    - file: experiments/experiments
-    - file: pandas/pandas
+    - file: stats/biostats
+    - file: stats/experiments
+    - file: stats/pandas
   - caption: Lab Training
     chapters:
-    - file: iibm-lab/iibm_lab
-    - file: instruments/instruments
+    - file: lab/iibm_lab
+    - file: lab/instruments
     sections:
-      - file: instruments/electroforce
-      - file: instruments/vibrotome
-      - file: instruments/powerlab
-      - file: instruments/bioradio
+      - file: lab/instruments/electroforce
+      - file: lab/instruments/vibrotome
+      - file: lab/instruments/powerlab
+      - file: lab/instruments/bioradio
   - caption: Finite Element Analysis
     chapters:
-    - file: fea/fenics/fenics
-    - file: fea/courses/courses
-    - file: fea/elements/elements
+    - file: fea/fenics
+    - file: fea/courses
+    - file: fea/elements
   - caption: Productivity
     chapters:
-    - file: productivity/text/text
-    - file: productivity/tools/tools
+    - file: productivity/text
+    - file: productivity/tools
