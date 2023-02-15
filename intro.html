@@ -52,7 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="programming/programming.html" />
+    <link rel="next" title="Programming and code development" href="programming/programming.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -114,13 +114,113 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
+  Programming and Code Development
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="programming/programming.html">
+   Programming and code development
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Scientific Visualization, Writing and Presenting
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="writing/writing.html">
+   Scientific writing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="presenting/presenting.html">
+   Scientific presentations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="vis/vis.html">
+   Scientific visualization
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Statistical and Data Analysis
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="biostats/biostats.html">
+   Biostatistics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="experiments/experiments.html">
+   Experimental design and analysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="pandas/pandas.html">
+   Data analysis with Pandas
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Lab Training
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="iibm-lab/iibm_lab.html">
+   IIBM Laboratory 2
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="instruments/instruments.html">
+   Instruments at the laboratory
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Finite Element Analysis
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="fea/fenics/fenics.html">
+   FEniCS and FEniCSx
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="fea/courses/courses.html">
+   Finite element analysis courses
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="fea/elements/elements.html">
+   Element definition and reference
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
   Productivity
  </span>
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
+  <a class="reference internal" href="productivity/text/text.html">
+   Text editors
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="productivity/tools/tools.html">
-   Markdown Files
+   Productivity tools
   </a>
  </li>
 </ul>
@@ -278,12 +378,48 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-i-contribute-to-this-site">
+   How do I contribute to this site?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-to-update-existing-pages">
+     How to update existing pages
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-to-create-new-pages">
+     How to create new pages
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -295,6 +431,31 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-i-contribute-to-this-site">
+   How do I contribute to this site?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-to-update-existing-pages">
+     How to update existing pages
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-to-create-new-pages">
+     How to create new pages
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -305,6 +466,61 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="computational-medicine-group-onboarding">
 <h1>Computational Medicine Group Onboarding<a class="headerlink" href="#computational-medicine-group-onboarding" title="Permalink to this headline">#</a></h1>
 <p>In this book you will find resources, references and tutorials on various topics that are relevant to our activity as a group.</p>
+<section id="how-do-i-contribute-to-this-site">
+<h2>How do I contribute to this site?<a class="headerlink" href="#how-do-i-contribute-to-this-site" title="Permalink to this headline">#</a></h2>
+<p>Contributing to this site involves use of GitHub, Markdown or Jupyter Notebooks, and the command line. It is built with <a class="reference external" href="https://jupyterbook.org/">Jupyter Book</a> technology, but it is fairly simple to work with. To start, you will need to do the following:</p>
+<ol class="simple">
+<li><p>Clone the book’s repository (available on the top-right) onto your computer.</p></li>
+<li><p>Install Jupyter Book (to generate the updated website HTML after editing) by running</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">U</span> <span class="n">jupyter</span><span class="o">-</span><span class="n">book</span>
+</pre></div>
+</div>
+<ol class="simple">
+<li><p>Install <code class="docutils literal notranslate"><span class="pre">ghp-import</span></code> (to publish the updated HTML using GitHub Pages) by running</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">ghp</span><span class="o">-</span><span class="kn">import</span>
+</pre></div>
+</div>
+<p>After this is done, you will be able to update existing pages or create new ones. Pages are handled <em>via</em> source files that include <a class="reference external" href="https://jupyter.org/">Juypyter Notebooks</a> and <a class="reference external" href="https://jupyterbook.org/en/stable/reference/cheatsheet.html">MyST flavoured Markdown</a> pages. Jupyter Book then takes the source files and builds a static HTML website (which is what you’re seeing here).</p>
+<section id="how-to-update-existing-pages">
+<h3>How to update existing pages<a class="headerlink" href="#how-to-update-existing-pages" title="Permalink to this headline">#</a></h3>
+<ol class="simple">
+<li><p>Pull from <code class="docutils literal notranslate"><span class="pre">remote</span></code> to make sure you have the latest website on your computer.</p></li>
+<li><p>Edit the Markdown or Jupyter Notebook file that corresponds to the page.</p></li>
+<li><p>Push your changes to the repository.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only push the changes to the source files (i.e. the file you just edited). Do not push the <code class="docutils literal notranslate"><span class="pre">_build/</span></code> folder, which contains the HTML files for the website. It should be included in the <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> file, so normally Git will ignore the folder and impede this from happening.</p>
+</div>
+<ol class="simple">
+<li><p>Build the webpage on your computer (generate updated HTML files) by running</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span><span class="o">-</span><span class="n">book</span> <span class="n">build</span> <span class="o">.</span>
+</pre></div>
+</div>
+<p>from the <code class="docutils literal notranslate"><span class="pre">main</span></code> branch of the <code class="docutils literal notranslate"><span class="pre">onboarding/</span></code> directory.
+5. Publish the updated website by running</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ghp</span><span class="o">-</span><span class="kn">import</span> <span class="o">-</span><span class="n">n</span> <span class="o">-</span><span class="n">p</span> <span class="o">-</span><span class="n">f</span> <span class="n">_build</span><span class="o">/</span><span class="n">html</span>
+</pre></div>
+</div>
+<p>from the <code class="docutils literal notranslate"><span class="pre">main</span></code> branch of the <code class="docutils literal notranslate"><span class="pre">onboarding/</span></code> directory.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There is no need to push anything other than the source files you pushed in step 3. <code class="docutils literal notranslate"><span class="pre">ghp-import</span></code> handles pushing the HTML changes to remote all by itself.</p>
+</div>
+</section>
+<section id="how-to-create-new-pages">
+<h3>How to create new pages<a class="headerlink" href="#how-to-create-new-pages" title="Permalink to this headline">#</a></h3>
+<ol class="simple">
+<li><p>Pull from <code class="docutils literal notranslate"><span class="pre">remote</span></code> to make sure you have the latest website on your computer.</p></li>
+<li><p>Edit the <code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code> file to account for your new page. In this file, <code class="docutils literal notranslate"><span class="pre">chapters</span></code> refer to pages that constitute a part of a subject (for example, <code class="docutils literal notranslate"><span class="pre">biostats</span></code> is a part of <code class="docutils literal notranslate"><span class="pre">Statistical</span> <span class="pre">and</span> <span class="pre">Data</span> <span class="pre">Analysis</span></code>) and <code class="docutils literal notranslate"><span class="pre">sections</span></code> refer to subpages within that chapter (for example, <code class="docutils literal notranslate"><span class="pre">electroforce</span></code> is a subpage of <code class="docutils literal notranslate"><span class="pre">instruments</span></code>). This should be a correctly classified a <code class="docutils literal notranslate"><span class="pre">file</span></code> entry, with its value being the path to the new page without suffix (i.e. without <code class="docutils literal notranslate"><span class="pre">.md</span></code> or <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>).</p></li>
+<li><p>Create the new file in the corresponding folder and edit it accordingly.</p></li>
+<li><p>Follow from step 3 of “How to update existing pages”.</p></li>
+</ol>
+</section>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -349,7 +565,7 @@ title="Print to PDF"
     <a class='right-next' id="next-link" href="programming/programming.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">&lt;no title&gt;</p>
+        <p class="prev-next-title">Programming and code development</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
