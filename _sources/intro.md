@@ -21,16 +21,20 @@ After this is done, you will be able to update existing pages or create new ones
 ### How to update existing pages
 
 1. Pull from `remote` to make sure you have the latest website on your computer.
+
 2. Edit the Markdown or Jupyter Notebook file that corresponds to the page.
+
 3. Push your changes to the repository.
 ```{note}
 Only push the changes to the source files (i.e. the file you just edited). Do not push the `_build/` folder, which contains the HTML files for the website. It should be included in the `.gitignore` file, so normally Git will ignore the folder and impede this from happening.
 ```
+
 4. Build the webpage on your computer (generate updated HTML files) by running
 ```
 jupyter-book build .
 ```
 from the `main` branch of the `onboarding/` directory.
+
 5. Publish the updated website by running
 ```
 ghp-import -n -p -f _build/html
